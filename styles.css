@@ -1,3 +1,8 @@
+body {
+    height: 100vh;
+}
+
+
 .logo__page{
     width: 120px;
     height: 40px;
@@ -11,8 +16,10 @@
     background-color: #063852;
 }
 
-.pantallaCompleta{
-    height: 100vh;
+
+
+.btn{
+    color: #fff;
 }
 
 .title__page{
@@ -56,6 +63,11 @@
     border-radius: 50%;
 }
 
+.card-edit{
+   padding: 10% 0;
+}
+
+
 /* PAGE CONTACT */
 
 textarea {
@@ -66,11 +78,16 @@ textarea {
 
 /* PAGE PAST EVENTS */
 
+.pantallaCompleta{
+    height: 100%;
+}
+
 .target{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
+    padding: 10% 0;
 }
 
 .content__target{
@@ -95,11 +112,12 @@ textarea {
 
 .info__target{
     width: 50%;
-    background-color:#F0810F;
+    background-color: #000;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #fff;
     
 }
 
@@ -133,6 +151,7 @@ textarea {
 .form{
     width: 60%;
     margin: auto;
+    padding: 10% 0;
 }
 
 
@@ -142,5 +161,17 @@ textarea {
 
 .table__stats{
     width: 80%;
-    height: auto;
+    height: 80%;
+    padding: 10% 0;
+}
+
+.colorDeFondo__tabla{
+    background-color: #063852;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+.style-ocupar{
+    height: 30%;
 }
